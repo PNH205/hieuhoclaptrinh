@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu về phạm ngọc hiếu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .profile-photo {
+            text-align: center;
+        }
+        
+        .profile-photo img {
+            max-width: 200px;
+            border-radius: 50%;
+            border: 3px solid #4CAF50;
+        }
+        
+        section {
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .interest-tag {
+            background-color: #e0f2e1;
+            color: #4CAF50;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Phạm Ngọc Hiếu</h1>
+        <p>Trang giới thiệu cá nhân</p>
+    </header>
+    
+    <div class="profile-container">
+        <div class="profile-photo">
+            <!-- Thay thế đường dẫn bằng ảnh thực tế của Hiếu Nhỏ -->
+            <img src="https://via.placeholder.com/200" alt="Hình ảnh Hiếu Nhỏ">
+        </div>
+        
+        <section>
+            <h2>Thông tin cá nhân</h2>
+            <p><strong>Họ và tên:</strong> Phạm Ngọc Hiếu</p>
+            <p><strong>Ngày sinh:</strong> [14-10-2004]</p>
+            <p><strong>Nơi sống:</strong> [Vạn Ninh-Khánh Hoà]</p>
+            <p><strong>Email:</strong> [phieu0950@gmail.com]</p>
+        </section>
+        
+        <section>
+            <h2>Giới thiệu</h2>
+            <p>
+                Xin chào! Mình là Phạm Ngọc Hiếu 
+            </p>
+            <p>
+                [Đang là sinh viên năm nhất tại Trường cao đẳng kĩ thuật công nghệ Nha Trang chuyên ngày công nghệ thông tin ].
+            </p>
+        </section>
+        
+        <section>
+            <h2>Sở thích</h2>
+            <div class="interests">
+                <span class="interest-tag">Âm nhạc</span>
+                <span class="interest-tag">Đọc sách</span>
+                <span class="interest-tag">Du lịch</span>
+                <span class="interest-tag">Đua xe thể thao </span>
+                <span class="interest-tag">Công nghệ trí tuệ nhân tạo AI </span>
+                            </div>
+        </section>
+        
+        <section>
+            <h2>Kỹ năng</h2>
+            <ul>
+                <li>[có thể sử dụng ngôn ngữ Tiếng Anh]</li>
+                <li>[Sử dụng được các phần mềm tin học]</li>
+                                <!-- Thêm hoặc chỉnh sửa các kỹ năng phù hợp -->
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Mục tiêu</h2>
+            <p>
+                [Sẽ trở thành 1 Dev chuyên nghiệp trong 2 năm nữa].
+            </p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2025 Phạm Ngọc Hiếu. Trang web cá nhân.</p>
+        <p>Cập nhật lần cuối: Tháng 4, 2025</p>
+    </footer>
+</body>
+</html>
